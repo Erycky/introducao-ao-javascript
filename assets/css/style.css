@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+body {
+    background: #2f2f2f;
+}
+
+.intro {
+    padding-left: 50px;
+    padding-top: 12px;
+    color: #f6f6f6;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 8px;
+}
+
+.contador p {
+    text-align: center;
+    color: #ffcb74;
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.btn-operador {
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 8px;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #111111;
+    color: #f6f6f6;
+}
+
+.btn-operador:hover {
+    animation: operador-animation 1s ease 0s 1 normal forwards;
+}
+
+@keyframes operador-animation {
+	0% {
+		transform: scale(1);
+        color: #f6f6f6;
+	}
+
+	100% {
+		transform: scale(1.5);
+        color: #ffcb74;
+	}
+}
+
+.numero {
+    font-family: 'Oswald', sans-serif;
+    color: #ffcb74;
+    font-size: 48px;
+    text-decoration: underline;
+}
+
+.btn-reset {
+    margin-top: 24px;
+    padding: 8px;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: #111111;
+    color: #f6f6f6;
+}
+
+.btn-reset:hover {
+    animation: reset-animation 1s ease 0s 1 normal forwards;
+}
+
+@keyframes reset-animation {
+	0% {
+		transform: scale(1);
+        color: #f6f6f6;
+	}
+
+	100% {
+		transform: scale(1.2);
+        color: #ffcb74;
+	}
+}
+
+.operacao {
+    text-align: center;
+}
